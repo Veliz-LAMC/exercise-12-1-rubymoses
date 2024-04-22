@@ -120,19 +120,21 @@ section li {
 	padding-bottom: .35em;
 }
 /*This is the style for luncheon table */
-section .luncheon-table {
-	width: 100%;
+  table {
+	width: 80%;
 	border-collapse: collapse;
-}
-section .luncheon-table th,
-section .luncheon-table td {
+	margin: 0 auto; 
+  }
+   th, td {
 	border: 1px solid #800000;
 	padding: 8px;
 	text-align: left;
 }
-section .luncheon-table th {
-	background-color: #ffcccc;
+h2 {
 	color: #800000;
+}
+   tr :nth-child(even){
+	background-color: #f0f0f0;
 }
 
 /* the styles for the article */
